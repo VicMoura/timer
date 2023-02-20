@@ -1,0 +1,52 @@
+.inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background: url(../fundo2.png);
+    background-position: 30% 45%;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.menuTimer {
+    background-color: aliceblue;
+    width: 800px;
+    height: 300px;
+    display: inline;
+    border-color: black;
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 1em;
+    box-shadow: 20px 20px;
+}
+
+.cronometro {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 100px;
+    
+}
+
+.buttonIniciar {
+    display: inline;
+}
+
+.botoesMenu {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+}

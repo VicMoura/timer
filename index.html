@@ -5,13 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timer</title>
-    <script src="index.js"></script> 
-    <link rel="stylesheet" href="style.css">
+    <script src="js/index.js"></script> 
+    <link rel="stylesheet" href="www/css/style.css">
+    <link rel="stylesheet" href="www/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
+    <div class="inicio">
             <div class="menuTimer"> 
-                    <h1>Timer</h1>
+
+                    <div class="cronometro">
+                        <div id="hora">00</div>
+                        <div>:</div>
+                        <div id="minutos">00</div>
+                        <div>:</div>
+                        <div id="segundos">00</div>
+                    </div>
+
+                    <div class="botoesMenu">
+                        <div style="display: block;">
+                            <button id="iniciar" class="btn btn-primary" onclick="iniciarCronometro()">Iniciar</button>
+                            <button class="btn btn-warning" onclick="pausarCronometro()">Parar</button>
+                            <button class="btn btn-danger" onclick="zerarCronometro()">Zerar</button>
+                        </div>
+                    </div>
             </div>
     </div>
     
